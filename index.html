@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rahul Mayank | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Rahul Mayank</h1>
+    <p>Strategy Consultant | Technologist | Content Creator</p>
+    <div class="social-links">
+      <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/YOUR_HANDLE" target="_blank">Twitter</a>
+      <a href="mailto:you@example.com">Email</a>
+    </div>
+    <button id="darkModeToggle">🌓</button>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a strategy consultant focused on AI, Telecom, and Digital Transformation. With 14+ years of experience,
+      I help businesses grow through data-driven decisions. I also create content on current affairs and tech trends.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>AI Agent for Network Optimization</h3>
+        <p>Built an AI-powered agent that predicts network health and allocates workforce accordingly.</p>
+      </div>
+      <div class="card">
+        <h3>Skill School Platform</h3>
+        <p>Designed a full-stack system for workforce training, onboarding, and deployment at scale.</p>
+      </div>
+      <div class="card">
+        <h3>Data Center P&L Tool</h3>
+        <p>Built a financial modeling dashboard with Lean Canvas and profit projections.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <div class="filters">
+      <button onclick="filterBlogs('All')">All</button>
+      <button onclick="filterBlogs('Tech')">Tech</button>
+      <button onclick="filterBlogs('Current Affairs')">Current Affairs</button>
+      <button onclick="filterBlogs('Consulting')">Consulting</button>
+    </div>
+    <div class="blog-list">
+      <div class="blog-post" data-category="Tech">
+        <h3>How AI Agents Are Disrupting Telecom</h3>
+        <p>A deep dive into agent-based models in network planning.</p>
+      </div>
+      <div class="blog-post" data-category="Current Affairs">
+        <h3>Why India’s 5G Rollout Is Unique</h3>
+        <p>Comparative analysis of 5G strategy vs global players.</p>
+      </div>
+      <div class="blog-post" data-category="Consulting">
+        <h3>25% Cost Optimization Playbook</h3>
+        <p>My framework for strategic workforce cost optimization.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form name="contact-form" netlify>
+      <input type="text" name="name" placeholder="Your name" required/>
+      <input type="email" name="email" placeholder="Your email" required/>
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Rahul Mayank. All rights reserved.</p>
+  </footer>
+</body>
+</html>
